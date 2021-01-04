@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name-pot{
+    color: orange;
+}
+.top-section{
+    width: 40%;
+  padding: 5px;
+}
+.top-section h1{
+    font-size: 50px;
+}
+.hed-taitel{
+    font-size: 25px;
+}
+.her-btn{
+    text-decoration: none;
+    background: red;
+    padding: 12px;
+}
