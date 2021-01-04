@@ -4,12 +4,15 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
 .name-pot{
     color: orange;
 }
 .top-section{
     width: 40%;
-  padding: 5px;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 .top-section h1{
     font-size: 50px;
@@ -19,6 +22,59 @@ body{
 }
 .her-btn{
     text-decoration: none;
-    background: red;
-    padding: 12px;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+p {
+        color: dimgray;
+    
+}
+img{
+    width: 100%;
+}
+.fast-section{
+    background-image: url("images/top-banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+}
+h2{
+    font-size: 40px;
+}
+.secen-section{
+    background-image: url("images/dream-bg.png");
+    height: 500px;
+    background-repeat: no-repeat;
+   background-position: right;
+}
+.expreans{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+   
+}
+#full-strk{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 100%;
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 100%;
+    border-image-slice: 1;
+}
+.expreans-area{
+    background-image: url("images/exp-bg.png");
+   background-repeat: no-repeat;
+   height: 500px;
+   background-position: left;
+}
+.expo{
+    text-align: center;
+}
+footer{
+    text-align: center;
 }
